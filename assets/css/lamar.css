@@ -115,6 +115,22 @@ h5 {
     line-height: 28px;
     margin: 0 0 30px;
 }
+h1.blog-title {
+	font-size: 86px;
+  letter-spacing: 10.8px;
+  margin: 10px 0 0;
+  -webkit-animation-delay: 1s;
+  line-height: 1.1;
+	/*position: relative;*/
+	margin: 0;
+}
+h2.blog-description {
+	font-weight: 100;
+	max-width: 540px;
+	margin: 10px auto 0;
+	/*position: relative;*/
+	font-size: 24px;
+}
 blockquote {
     padding: 0;
     margin: 0 auto;
@@ -247,10 +263,13 @@ strong {
 	position: relative;
 }
 .navigation ul li a {
-  padding: 0 20px 0 0;
+	padding: 0 30px 0 0;
   border: none;
   line-height: 90px;
-	font-weight: normal;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
 }
 .content, .brand {
 	display:block;
@@ -509,20 +528,6 @@ header .share a {
 	padding: 180px 8%;
 	text-align: center;
 }
-.blog-title {
-	font-size: 75px;
-	line-height: 75px;
-	font-weight: 200;
-	position: relative;
-	margin: 0;
-}
-.blog-description {
-	font-weight: 400;
-	max-width: 540px;
-	margin: 10px auto 0;
-	position: relative;
-	font-size: 25px;
-}
 @media (max-width: 992px) {
 	.container, .pagination {
 		width:auto;
@@ -535,8 +540,10 @@ header .share a {
 		left:0;
 		width:auto;
 	}
-	.content,
-	.navigation ul li a {
+	.brand {
+		margin-right: 30px;
+	}
+	.content {
 		margin-left:20px;
 	}
 	.title h1 {
