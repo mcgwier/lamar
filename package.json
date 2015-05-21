@@ -1,0 +1,20 @@
+{
+  "name": "lamar",
+  "version": "1.0.0",
+  "description": "Lamar is a soft and simple Ghost theme that favors nice content and mobile readers.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcgwier/lamar.git"
+  },
+  "author": "Jason Mcgwier <jason@mcgwier.com>",
+  "bugs": {
+    "url": "https://github.com/mcgwier/lamar/issues"
+  },
+  "homepage": "https://github.com/mcgwier/lamar",
+  "keywords": [
+    "ghost",
+    "theme"
+  ],
+  "private": true,
+  "license": "MIT"
+}
