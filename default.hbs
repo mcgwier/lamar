@@ -56,10 +56,13 @@
     <body class="{{body_class}}">
         <nav class="animated fadeIn navigation">
             <div class="container">
+                {{#if @blog.logo}}
                 <a href="{{@blog.url}}" class="text-right sidebar brand">
-                    {{#if @blog.logo}}<img src="{{@blog.logo}}" alt="{{@blog.title}}" />{{/if}}
+                    <img src="{{@blog.logo}}" alt="{{@blog.title}}" />
                 </a>
-                <p class="content">{{@blog.title}}</p>
+                {{else}}
+                <a href="{{@blog.url}}" class="content">{{@blog.title}}</a>
+                {{/if}}
                 {{navigation}}
             </div>
         </nav>

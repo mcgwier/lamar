@@ -136,6 +136,11 @@ strong {
 	-webkit-animation-duration:1s;
 	animation-duration:1s;
 }
+.navigation ul li a {
+  padding: 0 20px 0 0;
+  border: none;
+  line-height: 90px;
+}
 .content, .brand {
 	display:block;
 	float:left;
@@ -422,7 +427,8 @@ header .share a {
 		left:0;
 		width:auto;
 	}
-	.content {
+	.content,
+	.navigation ul li a {
 		margin-left:20px;
 	}
 	.title h1 {
