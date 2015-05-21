@@ -1,34 +1,45 @@
 @font-face {
-	font-family: 'Open Sans';
-	src: url('../fonts/OpenSans-Light-webfont.eot');
-	src: url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/OpenSans-Light-webfont.woff') format('woff'),
-		url('../fonts/OpenSans-Light-webfont.ttf') format('truetype'),
-		url('../fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
-	font-weight: 300;
-	font-style: normal;
+  font-family: 'Avenir Next';
+  src: url('fonts/AvenirNext-UltraLight.eot');
+  src: url('fonts/AvenirNext-UltraLight.eot?#iefix') format('embedded-opentype'),
+       url('fonts/AvenirNext-UltraLight.woff') format('woff'),
+       url('fonts/AvenirNext-UltraLight.ttf') format('truetype'),
+       url('fonts/AvenirNext-UltraLight.svg#AvenirNext-UltraLight') format('svg');
+  font-weight: 100;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Open Sans';
-	src: url('../fonts/OpenSans-Regular-webfont.eot');
-	src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
-		url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
-		url('../fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
-	font-weight: 400;
-	font-style: normal;
+  font-family: 'Avenir Next';
+  src: url('fonts/AvenirNext-Regular.eot');
+  src: url('fonts/AvenirNext-Regular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/AvenirNext-Regular.woff') format('woff'),
+       url('fonts/AvenirNext-Regular.ttf') format('truetype'),
+       url('fonts/AvenirNext-Regular.svg#AvenirNext-Regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Open Sans';
-	src: url('../fonts/OpenSans-Semibold-webfont.eot');
-	src: url('../fonts/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/OpenSans-Semibold-webfont.woff') format('woff'),
-		url('../fonts/OpenSans-Semibold-webfont.ttf') format('truetype'),
-		url('../fonts/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
-	font-weight: 600;
-	font-style: normal;
+  font-family: 'Avenir Next';
+  src: url('fonts/AvenirNext-Italic.eot');
+  src: url('fonts/AvenirNext-Italic.eot?#iefix') format('embedded-opentype'),
+       url('fonts/AvenirNext-Italic.woff') format('woff'),
+       url('fonts/AvenirNext-Italic.ttf') format('truetype'),
+       url('fonts/AvenirNext-Italic.svg#AvenirNext-Italic') format('svg');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('fonts/AvenirNext-Medium.eot');
+  src: url('fonts/AvenirNext-Medium.eot?#iefix') format('embedded-opentype'),
+       url('fonts/AvenirNext-Medium.woff') format('woff'),
+       url('fonts/AvenirNext-Medium.ttf') format('truetype'),
+       url('fonts/AvenirNext-Medium.svg#AvenirNext-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
 }
 
 @-webkit-keyframes fadeInUp {
@@ -58,16 +69,112 @@
 	}
 }
 body {
-	font-family:'Open Sans', 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif;
-	font-weight:300;
+	font-family: 'Avenir Next', 'Avenir', 'Helvetica Neue', 'Helvetica', sans-serif;
+	-webkit-font-smoothing: subpixel-antialiased;
+	text-rendering: optimizeLegibility;
 }
 p, ul, ol {
 	margin-bottom:40px;
 	font-size:18px;
-	font-weight:300;
 	line-height:34px;
 	letter-spacing:0;
 	color:#7f8c8d;
+}
+h1, h2, h3, h4, p, blockquote+p {
+    font-weight: 100;
+    color: #fff;
+    line-height: 1.5;
+}
+h1, h2, h3, button, .button, blockquote+p, footer {
+    text-transform: uppercase;
+}
+h2, h3, h5, button, .button, .social a, #email {
+	letter-spacing: 3.6px;
+}
+h1 {
+    font-size: 86px;
+    letter-spacing: 10.8px;
+    margin: 10px 0 0;
+    -webkit-animation-delay: 1s;
+    line-height: 1.1
+}
+h2 {
+    font-size: 24px;
+    margin: 60px 0 0;
+    -webkit-animation-delay: 0.5s;
+	color: rgba(255, 255, 255, 0.6);
+}
+h3 {
+    font-size: 36px;
+    margin: 0 0 30px;
+}
+h4 {
+    font-size: 24px;
+    margin: 0 0 60px;
+}
+h5 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #B0976D;
+    line-height: 28px;
+    margin: 0 0 30px;
+}
+blockquote {
+    font-size: 64px;
+    color: #fff;
+    line-height: 1.15;
+    padding: 0;
+    margin: 0 auto;
+    border: none;
+    max-width: 680px;
+}
+blockquote+p {
+    margin: 30px 0 0;
+    letter-spacing: 1.8px;
+}
+button, .button {
+    display: inline-block;
+    border: 1px solid #B0976D;
+    font-weight: 100;
+    font-size: 20px;
+    color: #B0976D;
+    background: transparent;
+    padding: 25px 35px;
+    margin: 60px 0 0 0;
+    position: relative;
+    -webkit-backface-visibility: hidden;
+    z-index: 1;
+    overflow: hidden;
+    -webkit-transition: color 0.4s;
+            transition: color 0.4s;
+    -webkit-animation-delay: 1.5s;
+}
+
+button:before, .button:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150%;
+    height: 100%;
+    background: #B0976D;
+    z-index: -1;
+    -webkit-transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -4em, 0);
+            transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -4em, 0);
+    -webkit-transform-origin: 0% 100%;
+        -ms-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.4s, background-color 0.4s;
+            transition: transform 0.4s, opacity 0.4s, background-color 0.4s;
+}
+
+button:hover:before, .button:hover:before, button:hover:focus, .button:hover:focus {
+    opacity: 1;
+    background-color: #B0976D;
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+            transform: rotate3d(0, 0, 1, 0deg);
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+            transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
 }
 ul ul, ol ul, ul ol, ol ol {
 	margin-bottom:0;
@@ -89,7 +196,7 @@ a:hover {
 	text-decoration:none;
 }
 strong {
-	font-weight:600;
+	font-weight:500;
 }
 .excerpt {
 	z-index:-1;
@@ -170,7 +277,6 @@ strong {
 }
 header {
 	position:relative;
-	font-weight:300;
 	color:#fff;
 	background-position:center center;
 	background-repeat:no-repeat;
@@ -197,12 +303,12 @@ header .container {
 	-webkit-animation-duration:1s;
 	animation-duration:1s;
 }
-.title h1 {
+/*.title h1 {
 	font-size:55px;
-	font-weight:300;
+	font-weight:100;
 	line-height:60px;
 	margin:0;
-}
+}*/
 .title p {
 	max-width: 420px;
 	margin-bottom: 0;
@@ -221,7 +327,6 @@ header .share {
 	color:#fff;
 }
 .meta time, .tags a {
-	font-weight:300;
 	color:#7f8c8d;
 }
 .meta strong, .tags a, .meta time {
@@ -277,7 +382,7 @@ article p > img, article a > img {
 	margin:80px -220px;
 }
 article h1, article h2, article h3 {
-	font-weight:300;
+	font-weight:100;
 	color:#464c4c;
 }
 article h1 {
@@ -335,7 +440,7 @@ article input:focus {
 	margin: 0;
 	display: block;
 	border: none;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 18px;
 	line-height: 34px;
 }
@@ -373,7 +478,7 @@ footer p {
 	margin:0;
 }
 .sample {
-	font-weight:300;
+	font-weight:100;
 	color:#fff;
 	-webkit-animation-duration:3s;
 	animation-duration:3s;
