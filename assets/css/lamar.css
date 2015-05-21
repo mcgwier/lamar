@@ -136,6 +136,16 @@ strong {
 	-webkit-animation-duration:1s;
 	animation-duration:1s;
 }
+.navigation ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.navigation ul li {
+	float: left;
+	display: block;
+	position: relative;
+}
 .navigation ul li a {
   padding: 0 20px 0 0;
   border: none;
