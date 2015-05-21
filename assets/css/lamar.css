@@ -345,6 +345,9 @@ header .share {
 	font-size:13px;
 	line-height:22px;
 }
+.page-template .meta {
+	display: none;
+}
 .published {
 	-webkit-animation-delay:.75s;
 	animation-delay:.75s;
