@@ -219,6 +219,7 @@ strong {
 .pagination {
 	text-align: center;
 	font-size: 13px;
+	margin-top: 60px;
 }
 .page-number {
 	color: #7f8c8d;
@@ -506,14 +507,12 @@ footer p {
 	padding-top:130px;
 	padding-bottom:0;
 }
-.excerpt article {
-	padding:40px 0;
+article.excerpt {
+	border-bottom:2px solid #f2f3f4;
+	padding: 0 0 40px 0;
 }
 .sample .container a:hover {
 	color:#2e9fff;
-}
-.excerpt article {
-	border-bottom:2px solid #f2f3f4;
 }
 .page footer {
 	border-top:2px solid #f2f3f4;
