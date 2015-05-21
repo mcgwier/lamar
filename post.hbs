@@ -12,16 +12,16 @@
     </header>
 
     <div class="push-article">
+    {{! Temporary indentation shift for Handlebars issue }}
+    {{> content}}
 
-{{! Temporary indentation shift for Handlebars issue }}
-{{> content}}
-
+    {{tags}}
     </div>
 
     <div class="container">
         <div class="author animated fadeIn clearfix">
             {{#author}}
-                <img src="{{image}}" alt="{{name}}" />
+                {{#if author.image}}<img class="author-thumb" src="{{author.image}}" alt="{{name}}" nopin="nopin" />{{/if}}
                 <div class="info">
                     <a href="{{url}}" class="name">{{name}}</a>
                     <p class="bio">{{bio}}</p>

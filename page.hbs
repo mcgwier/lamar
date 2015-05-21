@@ -9,14 +9,15 @@
             {{> title}}
             <div class="sidebar text-right meta">
                 <div class="published animated fadeInUp">
-                    <strong>Last Updated</strong>
+                    <strong>Published</strong>
                     <time datetime="{{date format='YYYY-MM-DD'}}">{{date format='DD MMM YYYY'}}</time>
                 </div>
             </div>
         </div>
     </header>
 
-{{! Temporary indentation shift for Handlebars issue }}
-{{> content}}
+    {{! Temporary indentation shift for Handlebars issue }}
+    {{> content}}
 
+    {{tags}}
 {{/post}}
