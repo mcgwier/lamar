@@ -121,14 +121,14 @@ h1.blog-title {
   margin: 10px 0 0;
   -webkit-animation-delay: 1s;
   line-height: 1.1;
-	/*position: relative;*/
+	position: relative;
 	margin: 0;
 }
 h2.blog-description {
 	font-weight: 100;
 	max-width: 540px;
 	margin: 10px auto 0;
-	/*position: relative;*/
+	position: relative;
 	font-size: 24px;
 }
 blockquote {
