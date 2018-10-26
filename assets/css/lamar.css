@@ -526,10 +526,10 @@ header .share a {
 .sample .title a, .sample .meta strong {
 	color:#464c4c;
 }
-.blog-cover {
+/* .blog-cover {
 	padding: 180px 8%;
 	text-align: center;
-}
+} */
 @media (max-width: 992px) {
 	.container, .pagination {
 		width:auto;
